@@ -42,13 +42,13 @@ int main() {
             break;
 
             case 4:
-                std::cout << "La comida" + comidas.front() + "fue eliminada" << std::endl; //Elimina el primer elemento
-                comidas.pop_front();
+                std::cout << "La comida" + comidas.front() + "fue eliminada" << std::endl; //Imprime el primer elemento en la lista
+                comidas.pop_front(); //Elimina el primer elemento en la lista
             break;
 
             case 5:
-                std::cout << "La comida" + comidas.back() + "fue eliminada" << std::endl; //Elimina el ultimo elemento
-                comidas.pop_back();
+                std::cout << "La comida" + comidas.back() + "fue eliminada" << std::endl; //Imprime el ultimo elemento en la lista
+                comidas.pop_back(); //Elimina el ultimo elemento en la lista
             break;
 
             case 6:
